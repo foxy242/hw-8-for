@@ -1,21 +1,21 @@
 // task 1
 
-// let num = 0
-// while (num < 10) {
-//     console.log(num)
-//     num += 1
-// }
+let num = 0
+while (num < 10) {
+    console.log(num)
+    num += 1
+}
 
 // Вивести на екран всі числа від 1 до 10 за допомогою циклу while.
 
 // task 2
 
-// const num2 = 2
-// for (let i = 0; i <= 20; i += 1) {
-//     if (i %2 ===0) {
-//         console.log(i);
-//     }
-//   }
+const num2 = 2
+for (let i = 0; i <= 20; i += 1) {
+    if (i %2 ===0) {
+        console.log(i);
+    }
+  }
 
 // Вивести на екран всі парні числа від 2 до 20 за допомогою циклу for.
 // Якщо число не парне, пропустити його за допомогою continue.
@@ -29,6 +29,10 @@ for (let i = 1; i <= 10; i += 1) {
 // Вивести на екран таблицю множення числа 7 за допомогою циклу for.
 
 // task 4
+const nay = [1, 2, 3, 4, 5]
+while (nay) {
+  console.log(nay)
+}
 
 // Створити масив з числами від 1 до 5. Вивести на екран кожен елемент масиву за допомогою циклу while.
 
@@ -62,12 +66,19 @@ for (let i = 1; i <= n; i += 1) {
 
 // task 7
 
-for (let i = 1; i <= 20; i += 1) {
-  if (i / 3 === 0) {
-    continue;
-  } else {
-    console.log(i);
-  }
+// for (let i = 1; i <= 20; i += 1) {
+//   if (i % 3 === 0) {
+//     continue;
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+let namber = 1
+
+while (namber <= 20 && namber % 3 !== 0) {
+  console.log(namber)
+  namber += 1
 }
 
 // За допомогою циклу while вивести на екран всі числа від 1 до 20, крім чисел, кратних 3.
